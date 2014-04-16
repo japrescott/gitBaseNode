@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"version",
+				"versionKey"
+			],
+			[
+				"elemVote",
+				"elemVoteUp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/20min.ch/editorial/doc/tetrisv200/bin/js/tetris.min.js",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/main/ui/development-bundle/demos/sortable/connect-lists-through-tabs.html",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/main/ui/development-bundle/docs/selectable.html",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/box/Section.js",
+		"/twentymin/sites/editorial/doc/tetrisv200/statistics.html",
+		"/media/20min.ch/www-internal/templates/ro/entertainment/vod/index.tmpl",
+		"/media/20min.ch/www-internal/templates/entertainment/vod/index.tmpl",
+		"/media/20min.ch/www-internal/templates/ro/entertainment/index.tmpl",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/Box.js",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/Box_old.js",
+		"/twentymin/sites/www-internal/docs/2010/CSS/main/main_section.css",
+		"/twentymin/sites/editorial/doc/tetrisv200/tetrisv200.sublime-project",
+		"/twentymin/sites/editorial/doc/tetrisv200/js/Tetris.js",
+		"/twentymin/sites/editorial/docs/tetrisv200/tetrisv101.sublime-project",
+		"/twentymin/sites/editorial/docs/tetrisv200/js/Tetris.js",
+		"/twentymin/sites/editorial/docs/tetrisv200/package.json",
+		"/twentymin/sites/editorial/docs/tetrisv200/js/main/jquery.ui.min.js",
+		"/twentymin/sites/editorial/docs/tetrisv200/js/main/backbone.min.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/home/jeremy/Programming/TetrisHistory/tetrisv10/",
+			"/home/jeremy/Programming/TetrisHistory/tetrisv10/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"maxHeightFront:13e3",
+			"13000",
+			"div.dummy",
+			"groupLayouts",
+			"callback_loadGroupHistory",
+			"COPY",
+			"a:",
+			"tetris",
+			"tetrisv102",
+			"clusterpos",
+			"cluster",
+			"class=\"cluster",
+			"tetris.css",
+			"img",
+			"statics",
+			"tetrisv101",
+			"/tetrisv200/",
+			"></script>",
+			"<script src=\"",
+			",",
+			" ",
+			"/tetrisv101/",
+			",",
+			"tetrisv10",
+			"//",
+			"?v3",
+			"v3",
+			"ico?v3",
+			"?v3",
+			"moveRelative",
+			"orderAssignment",
+			"edit",
+			"applyAssignOrder",
+			"orderAssignment",
+			"_boxOrderAssignment",
+			"_dropdownCopyFromGroupLayouts",
+			"groupLayout",
+			"drag",
+			"evalcode",
+			"textarea",
+			"editstorylist",
+			"grouper",
+			"{}",
+			"cuntInfos",
+			"cuntInfo",
+			"makecontainer",
+			"makeContainer",
+			"serializeBoxes",
+			"renderContainer",
+			"makeContainer",
+			"makeContainer\nmakeContainer",
+			"makeContainer",
+			"renderContainer",
+			"rootCluster",
+			"ü",
+			"ä",
+			"ö",
+			"preview",
+			"makeContainer",
+			"addBox",
+			"_createBoxView",
+			"revolverteaser",
+			"revolver",
+			"newest",
+			"et_tetrisview",
+			"tetrisview",
+			"serve",
+			"./serve",
+			"resize",
+			"cache_delete",
+			"saveLayoutEnd",
+			"°",
+			"\\\\xB0",
+			"change",
+			"_get_elementContent",
+			"topstory",
+			"topStory",
+			"<\\s",
+			"saveLayoutEnd",
+			"elementcontent",
+			"html",
+			"set(\"order",
+			"serializeBoxes",
+			"applyAssign",
+			"order",
+			"sub saveLayout",
+			"saveLayoutEnd",
+			"talkback_wemftag",
+			"wemf",
+			"  ",
+			"hot",
+			"_initVote",
+			"voted",
+			"alert",
+			"template missing",
+			"fucking template",
+			"fucking template missing",
+			"0px 5px",
+			"_initVote",
+			"rebind",
+			"_handler",
+			"load",
+			"ajax",
+			"login",
+			"talkbacklogin",
+			"\"right\"",
+			"elemUsernameArea",
+			"_reportComment",
+			"_setupVote",
+			"head",
+			"_setupVote",
+			"_createCommentForm",
+			"_handler(",
+			"_handler",
+			"_rebind",
+			"if ($cmd eq ",
+			"showuser",
+			"html",
+			"checkContainerHeight",
+			"html",
+			"adhtml",
+			"obsolete",
+			"applyOrder",
+			"rootCluster",
+			"applyOrder",
+			"updateResizeOptions",
+			"resize",
+			"TetrisGroupBoxCollection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"maxHeightFront:20e3",
+			"tetrisv200",
+			",",
+			"/tetrisv200/",
+			"tetrisv101",
+			"",
+			"	"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "base.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tetris",
+				"tetrisv200/js/Tetris.js"
+			],
+			[
+				"",
+				"~/Programming/mysr.ch/frontend/js/pc.selector.js"
+			],
+			[
+				"gui",
+				"tetrisv200/js/GUI.js"
+			],
+			[
+				"tetris.css",
+				"tetrisv200/css/tetris.css"
+			],
+			[
+				"fac",
+				"tetrisv200/js/BoxFactory.js"
+			],
+			[
+				"box",
+				"tetrisv200/js/BoxFactory.js"
+			],
+			[
+				"grunt",
+				"tetrisv200/Gruntfile.js"
+			],
+			[
+				"sublime",
+				"tetrisv200/tetrisv101.sublime-project"
+			],
+			[
+				"boxfacto",
+				"js/BoxFactory.js"
+			],
+			[
+				"index.html",
+				"index.html"
+			],
+			[
+				"factory",
+				"js/BoxFactory.js"
+			],
+			[
+				"factor",
+				"js/BoxFactory.js"
+			],
+			[
+				"facto",
+				"js/BoxFactory.js"
+			],
+			[
+				"boxfactory",
+				"js/BoxFactory.js"
+			],
+			[
+				"index.h",
+				"index.html"
+			],
+			[
+				"boxfac",
+				"js/BoxFactory.js"
+			],
+			[
+				"tetris.pl",
+				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
+			],
+			[
+				"boxfaco",
+				"js/BoxFactory.js"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"tetrisv10.pl",
+				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
+			],
+			[
+				"tetrisv",
+				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
+			],
+			[
+				"tetrisv10",
+				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
+			],
+			[
+				"index.tmpl",
+				"/media/20min.ch/www-internal/templates/index.tmpl"
+			],
+			[
+				"box.js",
+				"js/Box.js"
+			],
+			[
+				"tetris.js",
+				"js/Tetris.js"
+			],
+			[
+				"prescore",
+				"js/presCore.js"
+			],
+			[
+				"thebrain",
+				"js/TheBrain.js"
+			],
+			[
+				"gui.js",
+				"js/GUI.js"
+			],
+			[
+				"brain",
+				"js/TheBrain.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"boxfactor",
+				"js/BoxFactory.js"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"system",
+				"js/System.js"
+			],
+			[
+				"permission",
+				"js/Permission.js"
+			],
+			[
+				"the",
+				"js/TheBrain.js"
+			],
+			[
+				"tetrisv1",
+				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
+			],
+			[
+				"story",
+				"js/box/Story.js"
+			],
+			[
+				"storage",
+				"js/Storage.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
