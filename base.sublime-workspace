@@ -71,24 +71,7 @@
 	},
 	"file_history":
 	[
-		"/media/20min.ch/editorial/doc/tetrisv200/bin/js/tetris.min.js",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/main/ui/development-bundle/demos/sortable/connect-lists-through-tabs.html",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/main/ui/development-bundle/docs/selectable.html",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/box/Section.js",
-		"/twentymin/sites/editorial/doc/tetrisv200/statistics.html",
-		"/media/20min.ch/www-internal/templates/ro/entertainment/vod/index.tmpl",
-		"/media/20min.ch/www-internal/templates/entertainment/vod/index.tmpl",
-		"/media/20min.ch/www-internal/templates/ro/entertainment/index.tmpl",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/Box.js",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/Box_old.js",
-		"/twentymin/sites/www-internal/docs/2010/CSS/main/main_section.css",
-		"/twentymin/sites/editorial/doc/tetrisv200/tetrisv200.sublime-project",
-		"/twentymin/sites/editorial/doc/tetrisv200/js/Tetris.js",
-		"/twentymin/sites/editorial/docs/tetrisv200/tetrisv101.sublime-project",
-		"/twentymin/sites/editorial/docs/tetrisv200/js/Tetris.js",
-		"/twentymin/sites/editorial/docs/tetrisv200/package.json",
-		"/twentymin/sites/editorial/docs/tetrisv200/js/main/jquery.ui.min.js",
-		"/twentymin/sites/editorial/docs/tetrisv200/js/main/backbone.min.js"
+
 	],
 	"find":
 	{
@@ -100,8 +83,7 @@
 		"where_history":
 		[
 			"",
-			"/home/jeremy/Programming/TetrisHistory/tetrisv10/",
-			"/home/jeremy/Programming/TetrisHistory/tetrisv10/js"
+			"/home/jeremy/Programming/NZZ/Landi/"
 		]
 	},
 	"find_state":
@@ -313,156 +295,8 @@
 		"selected_items":
 		[
 			[
-				"tetris",
-				"tetrisv200/js/Tetris.js"
-			],
-			[
-				"",
-				"~/Programming/mysr.ch/frontend/js/pc.selector.js"
-			],
-			[
-				"gui",
-				"tetrisv200/js/GUI.js"
-			],
-			[
-				"tetris.css",
-				"tetrisv200/css/tetris.css"
-			],
-			[
-				"fac",
-				"tetrisv200/js/BoxFactory.js"
-			],
-			[
-				"box",
-				"tetrisv200/js/BoxFactory.js"
-			],
-			[
-				"grunt",
-				"tetrisv200/Gruntfile.js"
-			],
-			[
-				"sublime",
-				"tetrisv200/tetrisv101.sublime-project"
-			],
-			[
-				"boxfacto",
-				"js/BoxFactory.js"
-			],
-			[
 				"index.html",
 				"index.html"
-			],
-			[
-				"factory",
-				"js/BoxFactory.js"
-			],
-			[
-				"factor",
-				"js/BoxFactory.js"
-			],
-			[
-				"facto",
-				"js/BoxFactory.js"
-			],
-			[
-				"boxfactory",
-				"js/BoxFactory.js"
-			],
-			[
-				"index.h",
-				"index.html"
-			],
-			[
-				"boxfac",
-				"js/BoxFactory.js"
-			],
-			[
-				"tetris.pl",
-				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
-			],
-			[
-				"boxfaco",
-				"js/BoxFactory.js"
-			],
-			[
-				"index.",
-				"index.html"
-			],
-			[
-				"tetrisv10.pl",
-				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
-			],
-			[
-				"tetrisv",
-				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
-			],
-			[
-				"tetrisv10",
-				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
-			],
-			[
-				"index.tmpl",
-				"/media/20min.ch/www-internal/templates/index.tmpl"
-			],
-			[
-				"box.js",
-				"js/Box.js"
-			],
-			[
-				"tetris.js",
-				"js/Tetris.js"
-			],
-			[
-				"prescore",
-				"js/presCore.js"
-			],
-			[
-				"thebrain",
-				"js/TheBrain.js"
-			],
-			[
-				"gui.js",
-				"js/GUI.js"
-			],
-			[
-				"brain",
-				"js/TheBrain.js"
-			],
-			[
-				"index",
-				"index.html"
-			],
-			[
-				"boxfactor",
-				"js/BoxFactory.js"
-			],
-			[
-				"i",
-				"index.html"
-			],
-			[
-				"system",
-				"js/System.js"
-			],
-			[
-				"permission",
-				"js/Permission.js"
-			],
-			[
-				"the",
-				"js/TheBrain.js"
-			],
-			[
-				"tetrisv1",
-				"/home/jeremy/Programming/TetrisHistory/tetrisv10.pl"
-			],
-			[
-				"story",
-				"js/box/Story.js"
-			],
-			[
-				"storage",
-				"js/Storage.js"
 			]
 		],
 		"width": 0.0

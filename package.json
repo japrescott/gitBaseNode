@@ -9,14 +9,14 @@
   },
   "license": "Go-Fuck-YourSelf License",
   "dependencies": {
-  	"express":  		">=0.0.0",
-  	"static-favicon":  	">=0.0.0",
-  	"body-parser": 		">=1.0.0",
-    "morgan": 			">=1.0.0",
-    "cookie-parser": 	">=1.0.1",
-    "response-time": 	">=0.0.0",
-    "jade": 			">=0.34.1"
-
+    "express": ">=0.0.0",
+    "static-favicon": ">=0.0.0",
+    "body-parser": ">=1.0.0",
+    "morgan": ">=1.0.0",
+    "cookie-parser": ">=1.0.1",
+    "response-time": ">=0.0.0",
+    "jade": ">=0.34.1",
+    "compression": "~1.0.7"
   },
   "devDependencies": {
     "grunt": ">=0.4.1",
@@ -27,8 +27,9 @@
     "grunt-contrib-concat": ">=0.3.0",
     "grunt-contrib-jade": ">=0.8.0",
     "grunt-contrib-copy": ">=0.4.1",
-    "grunt-contrib-stylus": ">=0.8.0",
+    "grunt-contrib-stylus": "~0.17.0",
     "grunt-contrib-imagemin": ">=0.3.0",
-    "grunt-express": ">=1.2.1"
+    "grunt-express": ">=1.2.1",
+    "nib": "~1.0.2"
   }
 }

@@ -34,13 +34,21 @@ module.exports = function(grunt) {
 
 
 		watch:{
-			jsDir:{
-				files:["frontend/js/**.js"],
-				tasks:"buildJS"
+			buildDir:{
+				files: ["build/**"],
+				tasks: "copy:moveToBin"
+			}
+			,jsDir:{
+				files: ["frontend/js/**.js"],
+				tasks: "buildJS"
 			},
 			cssDir:{
-				files:["frontend/css/**"],
-				tasks:["buildCSS", "copy:css"]
+				files: ["frontend/css/**"],
+				tasks: ["buildCSS"]
+			},
+			htmlDir:{
+				files: ["frontend/**.jade"],
+				tasks: ["buildHTML"]
 			},
 			livereload:{
 				files:[
@@ -58,21 +66,20 @@ module.exports = function(grunt) {
 				files:[
 					{
 						expand: true,
-						src: ['frontend/css/*.css'],
-						dest: 'bin/css/../'
+						cwd: "frontend/css/",
+						src: ['**.css'],
+						dest: 'build/css/'
 					}
 				]
 			}
-			,statics:{
+			,moveToBin:{
 				files:[
 					{
-						expand: true,
-						src: ['frontend/img/**'],
-						dest: 'bin/img/../'
-					},
-					{
-						src:"frontend/index.html",
-						dest:"bin/index.html"
+						nonull:true,
+						expand:true,
+						cwd: "build/",
+						src: "**",
+						dest: "bin/"
 					}
 				]
 			}
@@ -81,11 +88,11 @@ module.exports = function(grunt) {
 		concat:{
 			vendor:{
 				src: '<%=app.vendor.files %>',
-				dest:"bin/js/vendor.js"
+				dest:"build/js/vendor.js"
 			},
 			app:{
 				src: ['<%=app.main.files %>'],
-				dest:"bin/js/main.js"
+				dest:"build/js/main.js"
 			}
 		},
 
@@ -96,7 +103,7 @@ module.exports = function(grunt) {
 					report:"min"
 				},
 				files: {
-					'bin/js/vendor.min.js': ['<%=concat.vendor.dest %>']
+					'build/js/vendor.min.js': ['<%=concat.vendor.dest %>']
 				}
 			},
 			app:{
@@ -115,7 +122,7 @@ module.exports = function(grunt) {
 					report:"min"
 				},
 				files: {
-					'bin/js/main.min.js': ['<%=concat.app.dest %>']
+					'build/js/main.min.js': ['<%=concat.app.dest %>']
 				}
 			}
 		},
@@ -131,9 +138,9 @@ module.exports = function(grunt) {
 			files:
 			{
 				expand: true,                  // Enable dynamic expansion
-				cwd: 'bin/img/',                   // Src matches are relative to this path
+				cwd: 'frontend/img/',                   // Src matches are relative to this path
 				src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-				dest: 'bin/img/'                  // Destination path prefix
+				dest: 'build/img/'                  // Destination path prefix
 			}
 		},
 
@@ -158,28 +165,29 @@ module.exports = function(grunt) {
 					expand: true,     // Enable dynamic expansion.
 						cwd: 'frontend/',      // Src matches are relative to this path.
 						src: ['**/*.jade'], // Actual pattern(s) to match.
-						dest: 'bin/',   // Destination path prefix.
+						dest: 'build/',   // Destination path prefix.
 						ext: '.html',   // Dest filepaths will have this extension.
 					},
 				]
 			}
 		},
 
-
-		express: {
-			options: {
-				port: 9000,
-				hostname: '*'
-			},
-			livereload: {
+		stylus:{
+			compile: {
 				options: {
-					port:36000,
-					//server: "",
-					livereload: true,
-					serverreload: true,
-					bases: ["bin"]
+					compress:false,
+					linenos:true,
+					firebug:true,
+					//paths: ['path/to/import', 'another/to/import'],
+					urlfunc: 'url', // use embedurl('test.png') in our code to trigger Data URI embedding
+					use: [
+						require('nib') // use stylus plugin at compile time
+					]
+				},
+				files: {
+					'build/css/main.css': 'frontend/css/main.styl'
 				}
-			},
+			}
 		}
 
 	});
@@ -199,10 +207,25 @@ module.exports = function(grunt) {
 	//html/jade tasks
 	grunt.loadNpmTasks('grunt-contrib-jade');
 
+	//css/stylus tasks
+	grunt.loadNpmTasks('grunt-contrib-stylus');
+
 	//other
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 	grunt.loadNpmTasks('grunt-express');
+
+
+
+
+
+	grunt.registerTask('server', '(re)starting Dev Server', function() {
+		grunt.log.writeln('Starting Server in "'+__dirname);
+
+		var exec = require('child_process').exec;
+		exec("supervisor -w backend backend/index.js" );
+
+	});
 
 
 
@@ -215,6 +238,7 @@ module.exports = function(grunt) {
 	]);
 
 	grunt.registerTask('buildCSS', [
+	    "stylus",
 		"copy:css"
 	]);
 
@@ -231,15 +255,14 @@ module.exports = function(grunt) {
 		"buildJS"
 		,"buildCSS"
 		,"buildHTML"
-
-		,"copy:statics"
 		,"buildIMG"
+		,"copy:moveToBin"
 	]);
 
 
 	grunt.registerTask('default', [
 		'build'
-		,'express'
+		,'server'
 		,'watch'
 	]);
 

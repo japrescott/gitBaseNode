@@ -10,8 +10,8 @@ app.use( require('compression')() );
 app.use( require('response-time')() );
 
 //static routes
-app.use( require("static-favicon")(__dirname +"/bin/img/favicon.ico") );
-app.use(express.static(__dirname + "/bin"));
+app.use( require("static-favicon")(__dirname +"/../bin/img/favicon.ico") );
+app.use(express.static(__dirname + "/../bin"));
 
 
 app.use( require('body-parser')( {hash : 'md5'} ) );
@@ -35,4 +35,4 @@ app.locals.pretty = true;
 require("./routes")(app);
 
 
-app.listen(80);
+app.listen(8080);
